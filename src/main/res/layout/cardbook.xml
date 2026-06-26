@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#92DDED">
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="169dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cardphonename" />
+
+    <TextView
+        android:id="@+id/NameUpBookCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/KNIGA"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView46"
+        app:layout_constraintEnd_toEndOf="@+id/imageView46"
+        app:layout_constraintStart_toStartOf="@+id/imageView46"
+        app:layout_constraintTop_toTopOf="@+id/imageView46" />
+
+    <ImageView
+        android:id="@+id/PhotoBookCard"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="40dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView46" />
+
+    <ImageView
+        android:id="@+id/imageView48"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PhotoBookCard"
+        app:srcCompat="@drawable/fonecardbook" />
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView48"
+        app:srcCompat="@drawable/fonecardbook" />
+
+    <ImageView
+        android:id="@+id/GenreFoneCard"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView49"
+        app:srcCompat="@drawable/fonecardbook" />
+
+    <TextView
+        android:id="@+id/NameBookCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView48"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <TextView
+        android:id="@+id/ExchangeBookCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView49" />
+
+    <TextView
+        android:id="@+id/GangreBookCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/GenreFoneCard"
+        app:layout_constraintStart_toStartOf="@+id/GenreFoneCard"
+        app:layout_constraintTop_toTopOf="@+id/GenreFoneCard" />
+
+    <ImageView
+        android:id="@+id/writeButton"
+        android:layout_width="162dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/writeauthorbook" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/write"
+        app:layout_constraintBottom_toBottomOf="@+id/writeButton"
+        app:layout_constraintEnd_toEndOf="@+id/writeButton"
+        app:layout_constraintStart_toStartOf="@+id/writeButton"
+        app:layout_constraintTop_toTopOf="@+id/writeButton" />
+
+    <ImageView
+        android:id="@+id/AvatarProd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ScriptBookCard"
+        app:srcCompat="@drawable/defaultava" />
+
+    <TextView
+        android:id="@+id/NameProd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/AvatarProd"
+        app:layout_constraintTop_toTopOf="@+id/AvatarProd" />
+
+    <TextView
+        android:id="@+id/ReviewsUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/AvatarProd"
+        app:layout_constraintTop_toBottomOf="@+id/NameProd" />
+
+    <TextView
+        android:id="@+id/ScriptFoneCard"
+        android:layout_width="440dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="20dp"
+        android:background="#5c8c96"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GenreFoneCard" />
+
+    <TextView
+        android:id="@+id/ScriptBookCard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="30dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/ScriptFoneCard"
+        app:layout_constraintEnd_toEndOf="@+id/ScriptFoneCard"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ScriptFoneCard" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

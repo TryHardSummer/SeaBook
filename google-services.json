@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "70688447591",
+    "firebase_url": "https://seabook-a8adf-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "seabook-a8adf",
+    "storage_bucket": "seabook-a8adf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70688447591:android:fdee93b3ba8d4afce588c2",
+        "android_client_info": {
+          "package_name": "com.example.projecz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2DULyMjosQrtn_-vGs2wxHC1ZZasxlBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#92DDED">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Regis"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="321dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:srcCompat="@drawable/_3" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/Email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="GoToLogin"
+        android:text="@string/login"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView15" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/Password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="323dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:srcCompat="@drawable/_3" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/_3" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/Again_password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/CreateVer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/Create_profile"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/fone123"
+        app:layout_constraintStart_toStartOf="@+id/fone123"
+        app:layout_constraintTop_toTopOf="@+id/fone123" />
+
+    <ImageView
+        android:id="@+id/fone123"
+        android:layout_width="135dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="40dp"
+        android:onClick="Register"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EnterPas"
+        app:srcCompat="@drawable/_2" />
+
+    <TextView
+        android:id="@+id/EmailVer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="CompleteRegister"
+        android:text="@string/accceptemail"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/fone321"
+        app:layout_constraintEnd_toEndOf="@+id/fone321"
+        app:layout_constraintStart_toStartOf="@+id/fone321"
+        app:layout_constraintTop_toTopOf="@+id/fone321" />
+
+    <ImageView
+        android:id="@+id/fone321"
+        android:layout_width="160dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="40dp"
+        android:onClick="CompleteRegister"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EnterPas"
+        app:srcCompat="@drawable/mydealsfonepage" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="407dp"
+        android:layout_height="40dp"
+        android:onClick="GoToLogin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/vxod" />
+
+    <EditText
+        android:id="@+id/RegEma"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7" />
+
+    <EditText
+        android:id="@+id/RegPas"
+        android:layout_width="321dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/imageView10" />
+
+    <EditText
+        android:id="@+id/EnterPas"
+        android:layout_width="321dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

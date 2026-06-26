@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#92DDED">
+
+    <ImageView
+        android:id="@+id/DealerPhotoProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/defaultava" />
+
+    <TextView
+        android:id="@+id/DealerNameProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DealerPhotoProfile" />
+
+    <TextView
+        android:id="@+id/ScoreDeals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DealerNameProfile" />
+
+    <TextView
+        android:id="@+id/RevRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ScoreDeals" />
+
+    <ImageView
+        android:id="@+id/imageView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RevRate"
+        app:srcCompat="@drawable/_2" />
+
+    <ImageView
+        android:id="@+id/imageView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView62"
+        app:srcCompat="@drawable/_2" />
+
+    <ImageView
+        android:id="@+id/imageView64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView63"
+        app:srcCompat="@drawable/_2" />
+
+    <ImageView
+        android:id="@+id/imageView71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView64"
+        app:srcCompat="@drawable/_2" />
+
+    <ImageView
+        android:id="@+id/imageView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView71"
+        app:srcCompat="@drawable/_2" />
+
+    <ImageView
+        android:id="@+id/imageView73"
+        android:layout_width="133dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PickRate"
+        app:srcCompat="@drawable/_2" />
+
+    <TextView
+        android:id="@+id/PickRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/pleasegiverewie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView72" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Set1"
+        android:text="@string/one"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView62"
+        app:layout_constraintEnd_toEndOf="@+id/imageView62"
+        app:layout_constraintStart_toStartOf="@+id/imageView62"
+        app:layout_constraintTop_toTopOf="@+id/imageView62" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Set2"
+        android:text="@string/two"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView63"
+        app:layout_constraintEnd_toEndOf="@+id/imageView63"
+        app:layout_constraintStart_toStartOf="@+id/imageView63"
+        app:layout_constraintTop_toTopOf="@+id/imageView63" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Set3"
+        android:text="@string/three"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView64"
+        app:layout_constraintEnd_toEndOf="@+id/imageView64"
+        app:layout_constraintStart_toStartOf="@+id/imageView64"
+        app:layout_constraintTop_toTopOf="@+id/imageView64" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Set4"
+        android:text="@string/four"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView71"
+        app:layout_constraintEnd_toEndOf="@+id/imageView71"
+        app:layout_constraintStart_toStartOf="@+id/imageView71"
+        app:layout_constraintTop_toTopOf="@+id/imageView71" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Set5"
+        android:text="@string/five"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView72"
+        app:layout_constraintEnd_toEndOf="@+id/imageView72"
+        app:layout_constraintStart_toStartOf="@+id/imageView72"
+        app:layout_constraintTop_toTopOf="@+id/imageView72" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="GiveReview2Dealer"
+        android:text="@string/giverewie"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView73"
+        app:layout_constraintEnd_toEndOf="@+id/imageView73"
+        app:layout_constraintStart_toStartOf="@+id/imageView73"
+        app:layout_constraintTop_toTopOf="@+id/imageView73" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

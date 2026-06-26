@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#92DDED">
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="413dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="448dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/somtttt" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="41dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="40dp"
+        android:onClick="Search"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView43"
+        app:layout_constraintStart_toStartOf="@+id/imageView43"
+        app:layout_constraintTop_toTopOf="@+id/imageView43"
+        app:layout_constraintVertical_bias="0.571"
+        app:srcCompat="@drawable/searchmenu" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="41dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="40dp"
+        android:onClick="ViewProfile"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView43"
+        app:layout_constraintEnd_toEndOf="@+id/imageView43"
+        app:layout_constraintTop_toTopOf="@+id/imageView43"
+        app:layout_constraintVertical_bias="0.666"
+        app:srcCompat="@drawable/profilemenu" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="41dp"
+        android:layout_height="39dp"
+        android:onClick="ViewMessages"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView43"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView43"
+        app:srcCompat="@drawable/messagemenu" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="227dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView44"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/searchfonemenu" />
+
+    <EditText
+        android:id="@+id/Bookreq"
+        android:layout_width="168dp"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:hint="@string/giveName"
+        android:inputType="text"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView33"
+        app:layout_constraintEnd_toEndOf="@+id/imageView33"
+        app:layout_constraintStart_toStartOf="@+id/imageView33"
+        app:layout_constraintTop_toTopOf="@+id/imageView33" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:onClick="CreateDeal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/plus" />
+
+    <ListView
+        android:id="@+id/listofbook"
+        android:layout_width="350dp"
+        android:layout_height="750dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView33" />
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="351dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="5dp"
+        android:onClick="SearchBook"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView33"
+        app:layout_constraintStart_toEndOf="@+id/Bookreq"
+        app:layout_constraintTop_toTopOf="@+id/imageView33"
+        app:srcCompat="@drawable/searchmenu" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:onClick="filterDeals"
+        app:layout_constraintStart_toEndOf="@+id/imageView33"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/filterdeals" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
